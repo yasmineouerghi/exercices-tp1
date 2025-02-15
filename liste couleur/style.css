@@ -1,0 +1,25 @@
+body{
+    width:100%;
+    
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding:50px;
+    align-items: center;
+    
+    background-color: rgb(247, 246, 234);
+    border-radius: 20px;
+
+}
+.liste{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.liItem:hover{
+    cursor: pointer;
+
+}

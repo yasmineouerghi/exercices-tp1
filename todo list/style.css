@@ -1,0 +1,87 @@
+.body{
+    height:100vh;
+    width:100%;
+    font-family: sans-serif;
+ 
+}
+
+.container{
+    width:90%;
+    height:500px;
+    display: flex;
+    justify-content: space-between;
+   padding:30px;
+    gap:20px;
+    border-radius: 20px;
+
+ 
+}
+.todoitems{
+background-color: beige;
+border-radius: 20px;
+width:50%;
+padding:20px;
+display:flex;
+flex-direction: column;
+gap:30px;
+    
+    
+}
+.todoadd{
+background-color: beige;
+border-radius: 20px;
+width:50%;
+padding:20px;
+}
+.todoadd .form{
+    display:flex;
+    flex-direction: column;
+ 
+    gap:20px;
+    font-size: 18px;
+    padding: 15px;
+ }
+ .todoTitle ,.todoDescription{
+  
+    border-radius: 10px;
+    width:90%;
+    height:30px;
+}
+.SaveButton{
+    background-color: rgb(59, 59, 255);
+    color:white;
+    border:none;
+    border-radius: 15px;
+    width:160px;
+    
+    height:35px;
+}
+.SaveButton:hover{
+    background-color: rgb(110, 110, 236);
+    cursor: pointer;
+   
+}
+.todoItem{
+ 
+    background-color: rgb(210, 208, 208);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap:50px;
+}
+.deletebutton{
+    width:30px;
+    height:30px;
+    border-radius:40px;
+    background-color: rgb(59, 59, 255);
+    border-color:rgb(59, 59, 255) ;
+    color:white;
+
+}
+.deletebutton:hover{
+    background-color: rgb(110, 110, 236);
+    cursor: pointer;
+   
+}
